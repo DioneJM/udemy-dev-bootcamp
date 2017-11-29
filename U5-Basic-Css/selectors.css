@@ -1,0 +1,57 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+/* Useful for selecting all elements */
+
+* {
+    border: 1px solid lightgrey;
+}
+
+/*Descendant Selector*/
+/* Useful for selecting an element that 
+is in a specific order
+<li>
+    <a>whatever is in here becomes red</a>
+</li>*/
+
+li a {
+    color: red;
+}
+
+/*Adjacent Selector*/
+/* Useful for selecting an
+ * element that is in a tag directly after another tag
+ 
+<li></li>
+<a>will have a solid red border</a>
+*/
+
+li + a {
+    border: 4px solid red;
+}
+
+
+/*Attribute Selector*/
+/* Useful for selecting an element
+ * with a specific attribute*/
+
+a[href="http://www.google.com"] {
+    background: blue;
+}
+
+/*nth of type*/
+
+li:nth-of-type(odd){
+    background: purple;
+}
