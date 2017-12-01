@@ -1,0 +1,18 @@
+
+
+p {
+    margin-left: 50%;
+    font-family: "Spectral SC";
+    font-size: 23px;
+    font-weight: 800;
+    border-bottom: solid red;
+    border-color: rgb(150,150,150);
+    width: 80px;
+    padding-bottom: 20px;
+    
+}
+img {
+    width: 30%; /*limits to 3 pictures a row*/
+    float: left;
+    margin: 1.66%;
+}

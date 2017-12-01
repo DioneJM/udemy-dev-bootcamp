@@ -1,0 +1,17 @@
+
+p {
+    /* Content - Width and Height */
+    /*Percent is based on the size of 
+     * parent element (in this case it's the body
+     */
+    width: 33%;
+    /* Border */
+    border: 2px solid blue;
+    /* Padding */
+    /* Space between border and content*/
+    padding-left: 40px;
+
+    /* Margin */
+    /*Space outside of the border*/
+    margin: 100px;
+}
